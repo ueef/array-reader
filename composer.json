@@ -1,0 +1,29 @@
+{
+  "name": "ueef/array-reader",
+  "type": "library",
+  "license": "MIT",
+  "description": "The ArrayReader is a basic wrapper to get a value from array",
+  "authors": [
+    {
+      "name": "ueef",
+      "email": "artem@arkadev.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "phpunit/php-code-coverage": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ueef\\ArrayReader\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ueef\\ArrayReader\\Tests\\": "tests"
+    }
+  }
+}
